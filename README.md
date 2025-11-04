@@ -544,4 +544,4 @@ A arquitetura escolhida garante **manutenibilidade**, **escalabilidade** e **fle
 **Desenvolvido por Sandro Moraes**  
 **Disciplina: Arquitetura de Software**  
 **Professor: Alan**  
-**Universidade: [Nome da Universidade]**
+**Universidade: Universidade do Estado do Pará**
