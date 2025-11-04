@@ -1,0 +1,27 @@
+### Listar todos os estudantes
+GET http://localhost:8000/students
+
+### Criar um novo estudante
+POST http://localhost:8000/students/create
+Content-Type: application/json
+
+{
+    "nome": "Maria Silva",
+    "idade": 22,
+    "email": "maria@email.com"
+}
+
+### Criar estudante sem email
+POST http://localhost:8000/students/create
+Content-Type: application/json
+
+{
+    "nome": "Pedro Santos",
+    "idade": 19
+}
+
+### Buscar estudante por ID (substitua pelo ID real)
+GET http://localhost:8000/students/83e988c1-447b-4245-b4e0-9b6746d5d303
+
+### Buscar estudante por matrícula (substitua pela matrícula real)
+GET http://localhost:8000/students/matricula/862969
